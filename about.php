@@ -31,25 +31,25 @@ $userInfo = 'главный специалист инженер-эколог';
   
   <body>
     <h1>Данные пользователя</h1>
-      <dl>
-        <dt>Имя</dt>
-        <dd><?php echo $userName ?></dd>
-      </dl>
-      <dl>
-        <dt>Возраст</dt>
-        <dd><?php echo$userAge ?></dd>
-      </dl>
-      <dl>
-        <dt>Адрес электронной почты</dt>
-        <dd><?php echo '<a href="mailto:' . $userEMail . '">' . $userEMail . '</a>' ?></dd>
-      </dl>
-      <dl>
-        <dt>Город</dt>
-        <dd><?php echo $userCity ?></dd>
-      </dl>
-      <dl>
-        <dt>О себе</dt>
-        <dd><?php echo $userInfo ?></dd>
-      </dl>
+    <dl>
+      <dt>Имя</dt>
+      <dd><?php echo $userName ?></dd>
+    </dl>
+    <dl>
+      <dt>Возраст</dt>
+      <dd><?php echo $userAge ?></dd>
+    </dl>
+    <dl>
+      <dt>Адрес электронной почты</dt>
+      <dd><?php echo '<a href="mailto:' . $userEMail . '">' . $userEMail . '</a>' ?></dd>
+    </dl>
+    <dl>
+      <dt>Город</dt>
+      <dd><?php echo $userCity ?></dd>
+    </dl>
+    <dl>
+      <dt>О себе</dt>
+      <dd><?php echo $userInfo ?></dd>
+    </dl>
   </body>
 </html>
